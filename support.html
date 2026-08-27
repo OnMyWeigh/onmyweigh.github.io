@@ -71,13 +71,37 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 <h3>Does OnMyWeigh work on iPad?</h3>
 <p>It&#x27;s built and tested for iPhone. It will install on iPad in compatibility mode, but the layout isn&#x27;t designed for it.</p>
 <h3>Does it connect to Apple Health?</h3>
-<p>Not yet.</p>
+<p>Yes, and it&#x27;s off until you switch it on — <strong>Settings → Apple Health → Save weigh-ins to Health</strong>.</p>
+<p>It only <strong>writes</strong>. OnMyWeigh saves your weigh-ins into Health so other apps can use them, and never reads anything from Health — not your weight from other apps, not steps, not anything else. Editing or deleting a weigh-in here updates Health too.</p>
+<p>Turning it off stops further saving; weigh-ins already in Health stay there. You can revoke the permission entirely in <strong>iOS Settings → Health → Data Access &amp; Devices → OnMyWeigh</strong>.</p>
+<h3>Why don&#x27;t weigh-ins from my smart scale show up in OnMyWeigh?</h3>
+<p>Because the connection only runs one way, on purpose. Reading from Health would mean deciding what happens when your scale and OnMyWeigh disagree about the same morning, in what units, and which one wins — and getting that wrong quietly corrupts your history. Writing has no such risk.</p>
+<p>If enough people want it, reading is the natural next step.</p>
+<h3>How do I track GLP-1 injections?</h3>
+<p><strong>Settings → GLP-1 → Track doses.</strong> A <strong>Doses</strong> tab appears in the bar, where you log each injection: medication, dose and unit, date, optional injection site, optional side-effect tags and a note.</p>
+<p>The point of it is the <strong>dose periods</strong> card. OnMyWeigh reads your weight trend separately within each strength, so you can see what 0.5 mg did and what 1 mg did as two different answers rather than one blurred average.</p>
+<h3>Why won&#x27;t the app tell me when to increase my dose?</h3>
+<p>Because it must not, and because it could not do it safely.</p>
+<p>OnMyWeigh records what you and your prescriber decided. It holds no titration schedule, does not know your prescription, and never suggests, calculates or verifies a dose. Dose decisions belong to you and your prescriber — a weight app is not a party to them.</p>
+<h3>Why does a dose period show a dash instead of a rate?</h3>
+<p>The period hasn&#x27;t run long enough, or doesn&#x27;t have enough weigh-ins inside it, to say anything honest yet. It needs at least 10 days and 4 weigh-ins, and the trend has to be clearly distinguishable from ordinary daily noise.</p>
+<p>The app would rather say nothing than give you a number you might act on.</p>
+<h3>How do I track blood pressure?</h3>
+<p><strong>Progress tab → Blood pressure → Log.</strong> Enter the two numbers, plus an optional pulse, time and note. Readings are stored on your device with everything else.</p>
+<p>If you also track GLP-1 doses, the card groups your readings by the dates you were on each dose, so you can see which readings belong to which period.</p>
+<h3>Why doesn&#x27;t the app tell me if my blood pressure is high?</h3>
+<p>Because that is a clinical judgement, not a tracking feature.</p>
+<p>Labels like normal, elevated or stage 1 are thresholds used to decide whether someone starts or changes medication. An app applying them to your numbers is making a medical assessment, and OnMyWeigh does not do that — for the same reason it will not tell you when to change a dose.</p>
+<p>It shows you what you recorded. What it means is a conversation for you and a qualified healthcare professional.</p>
+<h3>Why won&#x27;t it show my average blood pressure?</h3>
+<p>An average blood pressure is a figure clinicians calculate and act on. An earlier version of this app displayed one; it was removed deliberately.</p>
+<p>The readings are all there with their dates, grouped by dose period, so nothing is hidden — the app simply does not compute a summary number that could be mistaken for a clinical measure.</p>
 <h3>Can I track weight for more than one person?</h3>
 <p>Not currently — one profile per install.</p>
 <hr>
 <h2>Something else?</h2>
 <p>Email <strong>support@rjkdigitalventures.com</strong> with your app version and what you were doing when the problem happened. Screenshots help.</p>
-<p><a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></p>
+<p><a href="https://onmyweigh.github.io/privacy.html">Privacy Policy</a> <a href="https://onmyweigh.github.io/terms.html">Terms of Use</a></p>
 <footer>OnMyWeigh &middot; John Kusion &middot; Illinois, United States &middot; <a href="mailto:support@rjkdigitalventures.com">support@rjkdigitalventures.com</a></footer>
 </div>
 </body>
