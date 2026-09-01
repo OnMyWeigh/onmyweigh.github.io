@@ -44,6 +44,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 <li>Weight entries, with optional date, time and notes</li>
 <li>If you switch on GLP-1 tracking: the medication name, dose and unit you enter, the date and time, an optional injection site, optional side-effect tags and an optional note</li>
 <li>Blood pressure readings you enter: systolic, diastolic, the date and time, an optional pulse and an optional note</li>
+<li>Water intake: the amount you log, with the date and time</li>
 <li>A goal weight and an optional starting weight</li>
 <li>Height, age and sex, used to calculate BMI</li>
 <li>Body measurements, including optional body-fat percentage</li>
@@ -72,7 +73,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 <p><strong>Neither Apple nor RevenueCat receives your weight, measurements or any other health information from this app.</strong> The anonymous identifier is not linked to your name, email or any other identity we hold, because we hold none.</p>
 <p>RevenueCat&#x27;s handling of that data is described in the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>.</p>
 <h2>5. Apple Health</h2>
-<p>OnMyWeigh can save your weigh-ins to <strong>Apple Health</strong>, and this is off until you turn it on in Settings.</p>
+<p>OnMyWeigh can save your weigh-ins, blood pressure readings and water intake to <strong>Apple Health</strong>, and this is off until you turn it on in Settings.</p>
 <ul>
 <li>It is <strong>write-only</strong>. OnMyWeigh writes weight samples and blood pressure readings to Health and never reads anything from it. It cannot see your steps, heart rate, or any other health data, including weight or blood pressure recorded by other apps.</li>
 <li>Blood pressure is written as a single reading — Health stores the pair together, so the two numbers can never be separated or half-deleted.</li>
@@ -101,12 +102,19 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 </ul>
 <p>Blood pressure is sensitive even when it never leaves your phone. As with every other kind of data here, a backup file or a PDF report you export may contain it — that is the one way it can travel, and only because you sent it.</p>
 <p>Bring your readings to a qualified healthcare professional. Decisions about your blood pressure belong to you and them.</p>
-<h2>8. Notifications</h2>
+<h2>8. Water intake</h2>
+<p>Water is recorded the same way as everything else: the amount and when you logged it, stored on your device.</p>
+<ul>
+<li>There is <strong>no goal you did not set</strong>. The daily target defaults to a familiar figure and is yours to change; the app reports how much is left against it and nothing more.</li>
+<li>The app does not tell you whether you drank enough, and does not treat a missed day as a failure.</li>
+<li>If Apple Health is switched on, each entry is written there as a dietary water sample. Removing an entry in OnMyWeigh removes the matching sample.</li>
+</ul>
+<h2>9. Notifications</h2>
 <p>Weigh-in reminders are <strong>local notifications</strong> scheduled by your device. They are not sent from a server, and no notification service receives your data. The app asks for notification permission only at the moment you switch reminders on, and you can revoke it at any time in iOS Settings.</p>
-<h2>9. Exporting and sharing your data</h2>
+<h2>10. Exporting and sharing your data</h2>
 <p>OnMyWeigh can export your data as a CSV file, a full JSON backup, or a PDF progress report. Exporting creates a file on your device and hands it to the standard iOS share sheet.</p>
 <p><strong>Where that file goes is entirely your choice.</strong> If you email it, save it to iCloud Drive, or send it through another app, that destination&#x27;s own privacy terms apply. We are not involved in and do not receive anything from that transfer.</p>
-<h2>10. Keeping and deleting your data</h2>
+<h2>11. Keeping and deleting your data</h2>
 <p>Your data stays on your device until you remove it. You can:</p>
 <ul>
 <li>Delete individual weigh-ins from the History tab</li>
@@ -115,9 +123,9 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 </ul>
 <p><strong>There is no backup on our side.</strong> If you delete the app or your device is lost or reset, the data is gone. Export a backup first if you want to keep your history.</p>
 <p>Deleting the app does not cancel a subscription. Subscriptions are managed in your Apple account settings.</p>
-<h2>11. Children</h2>
+<h2>12. Children</h2>
 <p>OnMyWeigh is not directed at children under 13, and we do not knowingly collect information from children. Since the app collects no personal information from anyone, it holds none about children either.</p>
-<h2>12. Your rights</h2>
+<h2>13. Your rights</h2>
 <p>Privacy laws including the <strong>GDPR</strong> (EU/UK) and the <strong>CCPA/CPRA</strong> (California) give you rights to access, correct, delete and port your personal data, and to know whether it is sold or shared.</p>
 <p>In OnMyWeigh&#x27;s case those rights are satisfied by the app&#x27;s design rather than by making a request to us:</p>
 <ul>
@@ -128,11 +136,11 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);colo
 </ul>
 <p>We cannot action a request to retrieve or delete your weigh-in data on your behalf, because we do not have it.</p>
 <p>For purchase records held by Apple or RevenueCat, contact us at privacy@rjkdigitalventures.com and we will assist where we are able.</p>
-<h2>13. Security</h2>
+<h2>14. Security</h2>
 <p>Your data is protected by your device&#x27;s own security — passcode, Face ID or Touch ID, and iOS file encryption. Because nothing is transmitted to us, there is no server-side database of user health data to breach.</p>
-<h2>14. Changes to this policy</h2>
+<h2>15. Changes to this policy</h2>
 <p>If this policy changes materially — for example if a future version adds Apple Health integration or cloud sync — we will update this page and the effective date above, and describe the change in the app&#x27;s release notes.</p>
-<h2>15. Contact</h2>
+<h2>16. Contact</h2>
 <p>Questions about this policy or your privacy: <strong>privacy@rjkdigitalventures.com</strong></p>
 <p>John Kusion Illinois, United States</p>
 <footer>OnMyWeigh &middot; John Kusion &middot; Illinois, United States &middot; <a href="mailto:privacy@rjkdigitalventures.com">privacy@rjkdigitalventures.com</a></footer>
